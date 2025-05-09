@@ -17,6 +17,11 @@
         margin-bottom: 1.25rem;
         text-align: center;
         padding-bottom: 80px;
+        font-size: 1.25rem;         
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        
       }
   
       h2 {
@@ -25,9 +30,10 @@
         margin-bottom: 0.5rem;
         text-align: center;
         font-size: 1.25rem;         
-         font-weight: bold;          
-         letter-spacing: 2px;        
-          text-transform: uppercase; 
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        
       }
   
       p {
@@ -36,14 +42,21 @@
         margin-bottom: 0.5rem;
         text-align: center;
         font-size: 1.25rem;         
-         font-weight: bold;          
-     letter-spacing: 2px;        
-     text-transform: uppercase; 
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        
+        
       }
   
       strong {
         color: var(--red-color);
         font: var(--sub-title);
+        font-size: 1.25rem;         
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        
       }
     }
   }
@@ -188,22 +201,28 @@
       margin-bottom: 3.5rem;
       padding-top: 8rem;
       text-align: center;
-      font-size: 1.25rem;         
-         font-weight: bold;          
-         letter-spacing: 2px;        
-          text-transform: uppercase; 
     }
 
     h2 {
         color: var(--red-color);
         font: var(--sub-title);
         padding-bottom: 0.5rem;
+        font-size: 1.25rem;         
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        margin-bottom: 10px;
 
     }
 
     p {
         color: var(--gray-600);
         font: var(--title-md);
+        font-size: 1.25rem;         
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        margin-bottom: 10px;
     }
   }
   
@@ -260,9 +279,10 @@
       font: var(--sub-title);
       text-align: center;
       font-size: 1.25rem;         
-         font-weight: bold;          
-         letter-spacing: 2px;        
-          text-transform: uppercase; 
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        margin-bottom: 10px;
     }
   
     h3 {
@@ -271,9 +291,10 @@
       color: var(--gray-500);
       text-align: center;
       font-size: 1.25rem;         
-         font-weight: bold;          
-         letter-spacing: 2px;        
-          text-transform: uppercase; 
+        font-weight: bold;          
+        letter-spacing: 2px;        
+        text-transform: uppercase;  
+        margin-bottom: 10px;
     }
   }
   
@@ -285,6 +306,8 @@
     justify-content: center;
     margin-inline: auto;
     text-align: center;
+
+    
   
     & .card-cnt {
       gap: 0.5rem;
@@ -297,14 +320,14 @@
       transition: all 600ms ease;
       cursor: pointer;
   
-      & svg path {
+       img  {
         transition: fill 600ms ease;
       }
   
       &:hover {
         outline: 1.5px solid var(--blue-color);
   
-        & svg path {
+        img  {
           fill: var(--blue-color);
         }
       }
@@ -315,9 +338,9 @@
       align-items: center;
       gap: 0.75rem;
   
-      svg {
-        margin-block: 1.5rem;
-        margin-left: 1.25rem;
+      img {
+        
+        margin-left: 10px;
       }
   
       span {
