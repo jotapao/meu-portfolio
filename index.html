@@ -1,89 +1,109 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>João Pedro | Desenvolvedor Front-end</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <title>Portfólio | Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/index.css" />
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <img src="styles/assets/images/Avatar.png" alt="Avatar de João Pedro" class="avatar" />
-      <h1>João Pedro Souza</h1>
-      <h2>Desenvolvedor Front-end</h2>
-      <p>Construindo experiências digitais com <strong>qualidade</strong> e <strong>inovação</strong>.</p>
-    </div>
+  <header class="intro">
+    <img src="perfil.jpg" alt="Foto de perfil" class="profile-pic" />
+    <h1>Olá, sou <strong>João Paulo</strong></h1>
+    <p>Desenvolvedor Full Stack apaixonado por tecnologia e inovação.</p>
   </header>
 
-  <section class="about animated delay-1">
-    <div class="container">
-      <h2>Sobre Mim</h2>
-      <p>Sou um desenvolvedor front-end apaixonado por criar interfaces intuitivas e responsivas. Com experiência em HTML, CSS, JavaScript e frameworks modernos, busco constantemente aprimorar minhas habilidades e entregar soluções que proporcionem uma excelente experiência ao usuário.</p>
-    </div>
+  <section class="about" data-aos="fade-up">
+    <h2>Quem sou</h2>
+    <p>Sou um desenvolvedor com experiência em criação de aplicações web modernas, responsivas e otimizadas. Busco constantemente aprender novas tecnologias e aprimorar minhas habilidades para oferecer as melhores soluções digitais.</p>
   </section>
 
-  <section class="skills animated delay-2 ">
-    <div class="container">
-      <h2>Habilidades</h2>
-      <div class="skills-grid">
-        <div class="skill">
-          <img src="styles/assets/icones/HTML.svg" alt="Ícone HTML" />
-          <span>HTML</span>
-        </div>
-        <div class="skill">
-          <img src="styles/assets/icones/CSS.svg" alt="Ícone CSS" />
-          <span>CSS</span>
-        </div>
-        <div class="skill">
-          <img src="styles/assets/icones/JavaScript.svg" alt="Ícone JavaScript" />
-          <span>JavaScript</span>
-        </div>
-        <div class="skill">
-          <img src="styles/assets/icones/React.svg" alt="Ícone React" />
-          <span>React</span>
-        </div>
-        <div class="skill">
-          <img src="styles/assets/icones/Node.js.svg" alt="Ícone Node.js" />
-          <span>Node.js</span>
-        </div>
+  <section class="tech" data-aos="fade-up">
+    <h2>Tecnologias</h2>
+    <div class="tech-slider">
+      <div class="slider-track">
+        <div class="tech-item">HTML</div>
+        <div class="tech-item">CSS</div>
+        <div class="tech-item">JavaScript</div>
+        <div class="tech-item">React</div>
+        <div class="tech-item">Node.js</div>
+        <div class="tech-item">Express</div>
+        <div class="tech-item">MongoDB</div>
+        <div class="tech-item">MySQL</div>
+        <div class="tech-item">Git</div>
+        <div class="tech-item">Docker</div>
       </div>
     </div>
   </section>
 
-  <section class="projects animated delay-3">
-    <div class="container">
-      <h2>Projetos</h2>
-      <div class="projects-grid">
-        <!-- Exemplo de projeto -->
-        <div class="project-card">
-          <img src="styles/assets/images/REFUND.png" alt="Projeto Refund" />
-          <h3>Refund</h3>
-          <p>Sistema para solicitação e acompanhamento de reembolsos.</p>
-        </div>
-        <!-- Adicione mais projetos conforme necessário -->
+  <section class="projects" data-aos="fade-up">
+    <h2>Projetos</h2>
+    <div class="project">
+      <img src="projeto1.jpg" alt="Projeto 1">
+      <div class="project-info">
+        <h3>Projeto 1</h3>
+        <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+        <a href="#" class="btn">Ver Projeto</a>
+      </div>
+    </div>
+    <div class="project">
+      <img src="projeto2.jpg" alt="Projeto 2">
+      <div class="project-info">
+        <h3>Projeto 2</h3>
+        <p>Descrição breve do projeto e tecnologias utilizadas.</p>
+        <a href="#" class="btn">Ver Projeto</a>
       </div>
     </div>
   </section>
 
-  <section class="contact animated delay-4">
-    <div class="container">
-      <h2>Contato</h2>
-      <p>Entre em contato para orçamentos ou dúvidas:</p>
-      <div class="contact-links">
-        <a href="https://wa.me/5562981658672" target="_blank">WhatsApp</a>
-        <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-souza-5bb05a19a/" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/pedro_souza6/" target="_blank">Instagram</a>
-        <a href="https://github.com/jotapao" target="_blank">GitHub</a>
+  <section class="services" data-aos="fade-up">
+    <h2>Serviços</h2>
+    <div class="service-items">
+      <div class="service-card">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Websites e Landing Pages</h3>
+        <p>Criação de interfaces modernas e responsivas para destacar seu negócio online.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-database"></i>
+        <h3>APIs e Banco de Dados</h3>
+        <p>Desenvolvimento de APIs robustas e integração com bancos de dados SQL e NoSQL.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-cogs"></i>
+        <h3>DevOps</h3>
+        <p>Automatização de deploys, infraestrutura em nuvem e monitoramento de sistemas.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-code"></i>
+        <h3>Sistemas Sob Medida</h3>
+        <p>Criação de sistemas personalizados conforme a necessidade do seu negócio.</p>
       </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 João Pedro Souza. Todos os direitos reservados.</p>
+  <section class="contact" data-aos="fade-up">
+    <h2>Contato</h2>
+    <div class="buttons">
+      <a href="mailto:email@exemplo.com" class="btn">Email</a>
+      <a href="https://github.com/jotapao" target="_blank" class="btn">GitHub</a>
+      <a href="https://linkedin.com/in/jotapao" target="_blank" class="btn">LinkedIn</a>
     </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 João Paulo. Todos os direitos reservados.</p>
   </footer>
+
+  <script>
+    AOS.init({ duration: 1200 });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  </script>
 </body>
 </html>
