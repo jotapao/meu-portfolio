@@ -62,29 +62,25 @@ h2 {
 }
 
 /* Tecnologias animadas */
-.tech-slider {
+.skills-section {
+  overflow: hidden;
+  width: 100%;
+
+  padding: 2rem 0;
+}
+
+.skills-marquee {
   overflow: hidden;
   position: relative;
-  width: 100%;
-  padding: 1rem 0;
 }
 
-.slider-track {
+.skills-track {
   display: flex;
-  animation: slide 20s linear infinite;
-  gap: 2rem;
+  width: fit-content;
+  animation: scroll 30s linear infinite;
 }
 
-.tech-item {
-  padding: 1rem 2rem;
-  background: #1e293b;
-  border-radius: 1rem;
-  color: #38bdf8;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-@keyframes slide {
+@keyframes scroll {
   0% {
     transform: translateX(0);
   }
@@ -93,8 +89,29 @@ h2 {
   }
 }
 
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  margin: 0 2rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.skill-card img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
 /* Projetos */
-.projects .project {
+
+.projects
+ .project {
+ 
   display: flex;
   flex-direction: column;
   background: #1e293b;
